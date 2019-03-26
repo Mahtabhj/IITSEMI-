@@ -1,22 +1,18 @@
 #include"header.h"
 void menu()
 {
-    printf("If you want to know the information press Y\n");
+    printf("\nIf you want to know the information press Y\nIf you want to know cgpa press R\n");
     char c;
     int r,i;
     scanf(" %c",&c);
     if (c=='Y')
     {
-        printf("Enter the Roll number = ");
-        scanf(" %d",&r);
-        for(i=0;i<4;i++)
-        {
-            if(st[i].roll==r)
-            {
-                printf("The name of the student is = %s",st[i].name);
-            }
-        }
+       infout();
     }
-    else {printf("\nNot exists");}
+    else if(c=='R')
+    {
+        cg();
+    }
     menu();
 }
+
