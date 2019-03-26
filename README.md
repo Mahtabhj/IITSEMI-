@@ -1,2 +1,3 @@
-# IITSEMI-
-for semi final
+# IITSIS
+The Project
+1st semister
