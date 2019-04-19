@@ -3,7 +3,7 @@ void infoutR()
 {
     int i;char r[10];
     printf("Enter the roll = ");
-    scanf("%s ",&r);
+    scanf("%s",&r);
      for(i=0;i<32;i++)
         {
             if(strcmp(st[i].roll,r)==0)
@@ -16,7 +16,7 @@ void infoutn()
 {
     int i;char n[10];
     printf("Enter the name = ");
-    scanf("%s ",&n);
+    scanf("%s",&n);
      for(i=0;i<32;i++)
         {
             if(strcmp(st[i].name,n)==0)
@@ -43,7 +43,7 @@ void cgoutR()
 {
     int i,j,s;char r[10];
     float c=0;
-    printf("Enter the Roll Number = ");scanf("%s ",&r);
+    printf("Enter the Roll Number = ");scanf("%s",&r);
     printf("Enter the semister number = ");scanf("%d",&s);s=s-1;
     for(i=0;i<32;i++)
     {
@@ -98,7 +98,7 @@ void cgoutn()
 {
     int i,j,s;char n[10];
     float c=0;
-    printf("Enter the Roll Number = ");scanf("%s ",&n);
+    printf("Enter the Roll Number = ");scanf("%s",&n);
     printf("Enter the semister number = ");scanf("%d ",&s);s=s-1;
     for(i=0;i<32;i++)
     {
