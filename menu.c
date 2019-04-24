@@ -1,3 +1,4 @@
+
 #include"header.h"
 void menu()
 {
@@ -11,7 +12,15 @@ void menu()
     }
     else if(c=='R')
     {
-        cg();
+        printf("For individual Batch result press = 1\n         Student result press = 2\nMarks of an individual course press = 3\n");
+        scanf("%d",&r);
+        if(r==1)
+        {
+            cgb();
+        }
+        else if (r==2) {
+        cg();}
+        else {cgc();}
     }
     menu();
 }
