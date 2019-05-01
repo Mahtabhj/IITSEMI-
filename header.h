@@ -11,8 +11,11 @@ void cg();
 void infout();
 void cg();
 void infoutR();
-void infoutR();
-void infoutR();
+void infoutr();
+
 void cgoutR();
-void cgoutn();
+
 void cgoutR();
+void cgb();
+void cgc();
+void infn();
